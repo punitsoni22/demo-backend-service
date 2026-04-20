@@ -1,9 +1,26 @@
 {
 	"info": {
 		"_postman_id": "aadc18b2-d744-437e-9ad6-c88ded6e5267",
-		"name": "User",
+		"name": "User API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
+	"variable": [
+		{
+			"key": "HOST",
+			"value": "localhost",
+			"type": "string"
+		},
+		{
+			"key": "PORT",
+			"value": "3000",
+			"type": "string"
+		},
+		{
+			"key": "userId",
+			"value": "",
+			"type": "string"
+		}
+	],
 	"item": [
 		{
 			"name": "User: Get All Users",
